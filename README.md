@@ -2,7 +2,7 @@
 This is My very first static Html web page I made when I started learning Development.
 
 ## Deployed Here:
-www.belilevemasters.rf.gd
+http://www.believemaster.rf.gd
 Yaya ikr it's deployed on a free hosting server.
 
 ## Languages used
