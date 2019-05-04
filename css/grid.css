@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	width: 1000px;
+	position: relative;
+	margin: 0px auto;
+	padding: 0;
+	
+}
+.container .row:before ,.row:after
+{
+	content: " ";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.container .row:after
+{
+	clear: both;
+}
+.wrap-col
+{
+	margin: 10px;
+}
+.container .adjust-1,.container .adjust-2, .container .adjust-3, .container .adjust-4, .container .adjust-5
+{
+	float: left;
+	display: inline-block;
+	/*border: 1px solid #fff;*/
+}
+.container .adjust-1
+{
+	width: 75%;
+	/*border: 1px solid #323232;*/
+}
+.container .adjust-2
+{
+	width: 25%;
+}
+.container .adjust-3
+{
+	width: 33.33%;
+}
+.container .adjust-4
+{
+	width: 66.66%;
+}
+.container .adjust-5
+{
+	width: 50%;
+}
+

@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Believe Master</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/grid.css" type="text/css" rel="stylesheet">
+<link href="js/scripts.js" type="text/css">
+<link href="images/favicon.png" type="image/icon" rel="shortcut icon">
+</head>
+
+<body>
+	<main>
+	
+		<header>
+				
+			<div class="inner">
+			<h1 class="logo"><a href="index.html">BMYK</a></h1>
+				<nav>
+					<ul class="menu">
+					<li class="current"><a href="index.html">HOME</a></li>
+					<li><a href="Learn Tricks.html">LEARN TRICKS</a></li>
+					<li><a href="Playing Cards.html">PLAYING CARDS</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div>
+				<div class="slider">
+				<div class="mp-slider">
+					<img class="slides" src="images/1.jpg">
+					<img class="slides" src="images/2.jpg">
+					<img class="slides" src="images/shuffle.jpg">
+					<img class="slides" src="images/Deck.jpg">
+					
+				</div>
+					
+				</div>
+				
+				<a href="#" class="mp-prev" onclick="plusDivs(-1)"></a>
+				<a href="#" class="mp-next" onclick="plusDivs(+1)"></a>
+				
+				
+			</div>
+			
+		</header>
+			
+<script>							//auto-slider with timer 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+			
+
+					
+<script>						//normal slider 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  if (n > x.length) 
+  {
+	  slideIndex = 1
+  }    
+  if (n < 1) {
+	  slideIndex = x.length
+  }
+  for (i = 0; i < x.length; i++) 
+  {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>		
+			
+		
+		<section class="container">
+			<div class="row content-bg">
+			<div class="adjust-1">
+			<div class="wrap-col">
+				
+				<section class="indent-bottom">
+					<h2>OUR WORK</h2>
+						<div class="row hr-border-1">
+					
+							<div class="adjust-2">
+							<div class="wrap-col">
+								<img src="images/page1-img1.1.jpg" class="img-indent-bot">
+								<dl class="def-list-1">
+									<dt><a href="#">Work 1</a></dt>
+										<dd>Here is descripton of work 1</dd>
+								</dl>
+							</div>
+							</div>
+							
+							<div class="adjust-2">
+							<div class="wrap-col">
+								<img src="images/page1-img1.1.jpg" class="img-indent-bot">
+								<dl class="def-list-1">
+									<dt><a href="#">Work 2</a></dt>
+										<dd>Here is descripton of work 2</dd>
+								</dl>
+							</div>
+							</div>
+							
+							
+							<div class="adjust-2">
+							<div class="wrap-col">
+								<img src="images/page1-img1.1.jpg" class="img-indent-bot">
+								<dl class="def-list-1">
+									<dt><a href="#">Work 3</a></dt>
+										<dd>Here is descripton of work 3</dd>
+								</dl>
+							</div>
+							</div>
+							
+							
+						</div>
+					<div class="alignright">
+					<a href="#" class="button">Know More</a>
+					</div>
+					
+				</section>
+				
+				<section class="banner-box">
+					<div class="inside">
+					<h3>You Are A BeLiE-vE MAstER</h3>
+					<h4>Believe In What You Do</h4>
+						
+					<blockquote class="quote indent-right">
+					<strong>"Believe to Be a Magician"</strong><br>
+						You here at BM will learn everything about magic and sleight of hands with 
+						a new way of learning.Everything you learn from here will be pure sleight 
+						of hands and techniques that make magic happen, in a clear detailed explanation video.
+						Say goodbye to those old teaching techniques and all DVD's you purchase, in this era of digital downloads we'll provide you each and every trick online with a clean downloadable link so that you can save your magic where ever you like.
+					</blockquote>
+						<div class="alignright indent-right">
+						
+							<span class="author">Yanik Kumar <i>(Believe Master)</i></span>
+						
+						</div>
+						
+						
+					</div>
+					
+					<img src="images/banner-box-img1.png" class="banner-img">
+				
+				</section>
+				
+				
+			</div>
+			</div>
+				
+				<aside class="adjust-2">
+				<div class="wrap-col">
+				
+					<section class="indent-bottom-1">
+						<h2 class="heading-1">Welcome</h2>
+						<p class="p1"><strong>Welcome to the <a href="#">new world of magic</a> where you'll learn to amaze.
+						Best place to learn and <a href="#">create your own magic</a>.Enjoy and have fun in learning.</strong></p>	
+						
+						<p class="hr-border-1">All New Web Of Magic just like other magic companies.We offer you great quality of videos and products.This is<br><a href="#">INDIAs Magic Company</a></p>
+						
+					<div class="alignright">
+					<a href="#" class="button">Know More</a>
+					</div>
+						
+					 				<!-- Start of CuterCounter Code	(Unique visitors counter) -->
+                      <h6>Visitors Count:</h6>
+						<a href="http://www.believemaster.rf.gd" target="_blank">
+  						<img src="http://www.cutercounter.com/hit.php?id=gaxfdo&nd=4&style=38" border="0" alt="free counter" title="Visitors"></a>
+					 				<!-- End of CuterCounter Code -->
+						
+					</section>
+					
+					<section>
+					<h2>Latest Work:</h2>
+					<ul class="list-1">
+						<li><a href="#">Beginner's Project</a></li>
+						<li><a href="#">Beginner's Project</a></li>
+						<li><a href="#">Beginner's Project</a></li>
+						<li><a href="#">Beginner's Project</a></li>
+					</ul>	
+					</section>
+					
+				</div>
+				</aside>
+				
+			</div>
+		</section>
+		
+		<footer>
+			
+			<div class="container">
+			<div class="row footer-bg">
+				
+			<div class="hr-border-2"></div>	
+			<div class="wrapper">
+				
+				<div class="adjust-3">
+				<div class="wrap-col">
+				<div class="copyright">
+					&copy; 2018 <strong class="footer-logo">BeLiE-vE MAstER</strong>
+					<div>We serve Quality Magic only at <a href="index.html">www.believemaster.com</a></div>
+				</div>	
+			</div>
+			</div>
+				
+				<div class="adjust-4">
+				<div class="adjust-2">
+					<div class="wrap-col">
+						<h5 class="heading-1">Social Media</h5>
+							<ul class="footer-list">
+							<li><a href="https://youtube.com/believemaster">Youtube</a></li>
+							<li><a href="https://www.facebook.com/believemaster/">Facebook</a></li>
+							<li><a href="https://twitter.com/Believe_Master">Twitter</a></li>
+							<li><a href="https://instagram.com/yanik_kumar">Instagram</a></li>
+							<li><a href="https://www.linkedin.com/company/believemaster/">Linked-In</a></li>
+							<li><a href="https://www.periscope.tv/believemaster">Periscope</a></li>
+							</ul>	
+					</div>
+					</div>
+					
+					
+					<div class="adjust-2">
+					<div class="wrap-col">
+						<h5 class="heading-1">Need Help</h5>
+							<ul class="footer-list">
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Subscription List</a></li>
+							<li><a href="#">Forum</a></li>
+							</ul>	
+					</div>
+					</div>
+					
+					
+					<div class="adjust-2">
+					<div class="wrap-col">
+						<h5 class="heading-1">Links</h5>
+							<ul class="footer-list">
+							<li><a href="#">Merch</a></li>
+							<li><a href="#">Free Stuff</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+							</ul>	
+					</div>
+					</div>
+				
+					
+					<div class="adjust-2">
+					<div class="wrap-col">
+							<ul class="social-list">
+								<li><a href="https://youtube.com/believemaster"><img src="images/social-icon-1.png"></a></li>
+								<li><a href="https://www.facebook.com/believemaster/"><img src="images/social-icon-2.png"></a></li>
+								<li><a href="https://twitter.com/Believe_Master"><img src="images/social-icon-3.png"></a></li>
+							</ul>	
+					</div>
+					</div>
+					
+					
+				</div>
+				
+			</div>
+			
+			</div>
+			</div>
+			
+		</footer>
+		
+	</main>
+</body>
+</html>
